@@ -28,18 +28,17 @@ max-width:100%;
 
 /* ===== NAVBAR ===== */
 
-..navbar{
 
-display:flex;
-justify-content:space-between;
-align-items:center;
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-padding: 15px 60px;
+    padding:15px 50px;
 
-background:#082C5C;
+    background:#082C5C;
 
-box-shadow:0 2px 20px rgba(0,0,0,.08);
-
+    box-shadow:0 2px 20px rgba(0,0,0,.08);
 }
 display:flex;
 
@@ -60,9 +59,12 @@ z-index:1000;
 }
 
 .logo img{
-    height: 80px;
+    height: 70px;
     width: auto;
     display: block;
+}
+.logo{
+    flex:0 0 260px;
 }
 
 height:120px;
