@@ -34,7 +34,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 
-padding:20px 80px;
+padding: 15px 60px;
 
 background:#082C5C;
 
@@ -60,6 +60,10 @@ z-index:1000;
 }
 
 .logo img{
+    height: 80px;
+    width: auto;
+    display: block;
+}
 
 height:120px;
 
