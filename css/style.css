@@ -1,7 +1,4 @@
-/* ===========================
-   BIOLINK SOLUTIONS WEBSITE
-   Version 1.0
-=========================== */
+/* ===== GLOBAL ===== */
 
 *{
 margin:0;
@@ -12,14 +9,24 @@ box-sizing:border-box;
 body{
 
 font-family:'Poppins',sans-serif;
-
 background:#ffffff;
-
-color:#1d2d44;
+color:#0B2E59;
 
 }
 
-/* NAVIGATION */
+a{
+
+text-decoration:none;
+
+}
+
+img{
+
+max-width:100%;
+
+}
+
+/* ===== NAVBAR ===== */
 
 .navbar{
 
@@ -29,23 +36,21 @@ justify-content:space-between;
 
 align-items:center;
 
-padding:20px 8%;
+padding:20px 80px;
 
-background:#ffffff;
+background:#082C5C;
 
 position:sticky;
 
 top:0;
 
-z-index:999;
-
-box-shadow:0 2px 15px rgba(0,0,0,.05);
+z-index:1000;
 
 }
 
 .logo img{
 
-height:80px;
+height:75px;
 
 }
 
@@ -61,11 +66,9 @@ gap:35px;
 
 .navbar ul li a{
 
-text-decoration:none;
+color:white;
 
-font-weight:600;
-
-color:#0B2E59;
+font-weight:500;
 
 transition:.3s;
 
@@ -81,53 +84,55 @@ color:#D8A028;
 
 background:#D8A028;
 
+color:white;
+
 padding:12px 28px;
 
 border-radius:8px;
-
-color:white;
-
-text-decoration:none;
 
 font-weight:600;
 
 }
 
-/* HERO */
+/* ===== HERO ===== */
 
 .hero{
 
-display:grid;
-
-grid-template-columns:1fr 1fr;
+display:flex;
 
 align-items:center;
 
-padding:80px 8%;
+justify-content:space-between;
+
+padding:80px;
 
 min-height:85vh;
 
-background:linear-gradient(to right,#ffffff 55%,#f8f9fb);
+background:white;
 
 }
 
-.hero h1{
+.hero-text{
+
+width:50%;
+
+}
+
+.hero-text h1{
 
 font-family:'Oswald',sans-serif;
 
-font-size:72px;
+font-size:70px;
 
 line-height:1.05;
 
-color:#0B2E59;
+color:#082C5C;
 
 margin-bottom:20px;
 
 }
 
-.hero h1 span{
-
-display:block;
+.hero-text span{
 
 color:#D8A028;
 
@@ -135,25 +140,23 @@ color:#D8A028;
 
 .subtitle{
 
-font-size:22px;
+font-size:26px;
 
 font-weight:600;
 
 margin-bottom:20px;
 
-color:#0B2E59;
+color:#082C5C;
 
 }
 
-.hero p{
+.hero-text p{
 
-font-size:19px;
+font-size:18px;
 
 line-height:1.8;
 
 margin-bottom:35px;
-
-max-width:620px;
 
 }
 
@@ -167,11 +170,9 @@ gap:20px;
 
 .buttons a{
 
-padding:16px 34px;
+padding:15px 35px;
 
-text-decoration:none;
-
-border-radius:8px;
+border-radius:10px;
 
 font-weight:600;
 
@@ -179,7 +180,7 @@ font-weight:600;
 
 .buttons a:first-child{
 
-background:#0B2E59;
+background:#082C5C;
 
 color:white;
 
@@ -189,22 +190,20 @@ color:white;
 
 border:2px solid #D8A028;
 
-color:#D8A028;
+color:#082C5C;
 
 }
 
 .hero-image{
 
-height:600px;
+width:45%;
+
+height:550px;
+
+background:#F2F6FA;
 
 border-radius:30px;
 
-background:url("https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80");
-
-background-size:cover;
-
-background-position:center;
-
-box-shadow:0 30px 60px rgba(0,0,0,.15);
+border:4px solid #D8A028;
 
 }
