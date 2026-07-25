@@ -1,1 +1,210 @@
-/* Biolink Styles */
+/* ===========================
+   BIOLINK SOLUTIONS WEBSITE
+   Version 1.0
+=========================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#ffffff;
+
+color:#1d2d44;
+
+}
+
+/* NAVIGATION */
+
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 8%;
+
+background:#ffffff;
+
+position:sticky;
+
+top:0;
+
+z-index:999;
+
+box-shadow:0 2px 15px rgba(0,0,0,.05);
+
+}
+
+.logo img{
+
+height:80px;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+.navbar ul li a{
+
+text-decoration:none;
+
+font-weight:600;
+
+color:#0B2E59;
+
+transition:.3s;
+
+}
+
+.navbar ul li a:hover{
+
+color:#D8A028;
+
+}
+
+.join-btn{
+
+background:#D8A028;
+
+padding:12px 28px;
+
+border-radius:8px;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+/* HERO */
+
+.hero{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+align-items:center;
+
+padding:80px 8%;
+
+min-height:85vh;
+
+background:linear-gradient(to right,#ffffff 55%,#f8f9fb);
+
+}
+
+.hero h1{
+
+font-family:'Oswald',sans-serif;
+
+font-size:72px;
+
+line-height:1.05;
+
+color:#0B2E59;
+
+margin-bottom:20px;
+
+}
+
+.hero h1 span{
+
+display:block;
+
+color:#D8A028;
+
+}
+
+.subtitle{
+
+font-size:22px;
+
+font-weight:600;
+
+margin-bottom:20px;
+
+color:#0B2E59;
+
+}
+
+.hero p{
+
+font-size:19px;
+
+line-height:1.8;
+
+margin-bottom:35px;
+
+max-width:620px;
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.buttons a{
+
+padding:16px 34px;
+
+text-decoration:none;
+
+border-radius:8px;
+
+font-weight:600;
+
+}
+
+.buttons a:first-child{
+
+background:#0B2E59;
+
+color:white;
+
+}
+
+.buttons a:last-child{
+
+border:2px solid #D8A028;
+
+color:#D8A028;
+
+}
+
+.hero-image{
+
+height:600px;
+
+border-radius:30px;
+
+background:url("https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+
+}
