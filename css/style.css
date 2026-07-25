@@ -28,8 +28,19 @@ max-width:100%;
 
 /* ===== NAVBAR ===== */
 
-.navbar{
+..navbar{
 
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 80px;
+
+background:#082C5C;
+
+box-shadow:0 2px 20px rgba(0,0,0,.08);
+
+}
 display:flex;
 
 justify-content:space-between;
@@ -50,11 +61,38 @@ z-index:1000;
 
 .logo img{
 
+height:120px;
+
+}
+
+height:120px;
+
+}
+
 height:75px;
 
 }
 
-.navbar ul{
+.navbar ul li a{
+
+color:white;
+
+font-weight:600;
+
+font-size:17px;
+
+}
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:20px 80px;
+
+background:#082C5C;
+
+box-shadow:0 2px 20px rgba(0,0,0,.08);
+
+}
 
 display:flex;
 
@@ -81,6 +119,18 @@ color:#D8A028;
 }
 
 .join-btn{
+
+background:#D8A028;
+
+color:white;
+
+padding:15px 35px;
+
+border-radius:10px;
+
+font-weight:600;
+
+}
 
 background:#D8A028;
 
