@@ -119,21 +119,13 @@ header{
 ================================ */
 
 .hero{
-
     max-width:1200px;
-
-    margin:auto;
-
+    margin:0 auto;
     padding:80px 40px;
-
     display:grid;
-
     grid-template-columns:1fr 1fr;
-
-    gap:60px;
-
+    gap:80px;
     align-items:center;
-
 }
 
 .badge{
