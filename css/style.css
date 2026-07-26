@@ -1826,3 +1826,39 @@ justify-content:flex-start;
     color:#666;
     line-height:1.8;
 }
+/* ===================================
+   Premium Card Animations
+=================================== */
+
+.mission-card,
+.feature-card,
+.ecosystem-card,
+.timeline-content{
+
+    transition:all .35s ease;
+}
+
+.mission-card:hover,
+.feature-card:hover,
+.ecosystem-card:hover,
+.timeline-content:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.mission-card:hover i,
+.feature-card:hover i,
+.ecosystem-card:hover i{
+
+    color:#D4AF37;
+    transform:scale(1.1);
+}
+
+.mission-card i,
+.feature-card i,
+.ecosystem-card i{
+
+    transition:all .35s ease;
+}
