@@ -20,7 +20,7 @@
 
     <header>
 
-        <nav class="navbar">
+        <nav class="navbar reveal">
 
             <div class="container">
 
@@ -52,7 +52,7 @@
      About Hero
 ========================== -->
 
-<section class="about-hero">
+<section class="about-hero reveal">
 
     <div class="container">
 
@@ -75,7 +75,7 @@
      Company Overview
 ========================== -->
 
-<section class="about-overview">
+<section class="about-overview reveal">
 
     <div class="container">
 
@@ -123,7 +123,7 @@
      Mission • Vision • Values
 ========================== -->
 
-<section class="mission-section">
+<section class="mission-section reveal">
 
     <div class="container">
 
@@ -181,7 +181,7 @@
      Our Story
 ========================== -->
 
-<section class="our-story">
+<section class="our-story reveal">
 
     <div class="container">
 
@@ -233,7 +233,7 @@
      Why Choose Biolink
 ========================== -->
 
-<section class="why-biolink">
+<section class="why-biolink reveal">
 
     <div class="container">
 
@@ -313,7 +313,7 @@
      Healthcare Ecosystem
 ========================== -->
 
-<section class="ecosystem">
+<section class="ecosystem reveal">
 
     <div class="container">
 
@@ -383,7 +383,7 @@
      Our Journey
 ========================== -->
 
-<section class="journey">
+<section class="journey reveal">
 
     <div class="container">
 
@@ -481,7 +481,7 @@
      Call To Action
 ========================== -->
 
-<section class="cta-section">
+<section class="cta-section reveal">
 
     <div class="container">
 
@@ -513,7 +513,7 @@
     </div>
 
 </section>
-<div class="footer-column">
+<div class="footer-column reveal">
 
     <h3>Contact Us</h3>
 
@@ -541,4 +541,33 @@
 
 </div>
 </footer>
+ <script>
+
+const reveals = document.querySelectorAll(".reveal");
+
+function revealSections(){
+
+    reveals.forEach(section=>{
+
+        const windowHeight = window.innerHeight;
+
+        const revealTop = section.getBoundingClientRect().top;
+
+        const revealPoint = 120;
+
+        if(revealTop < windowHeight - revealPoint){
+
+            section.classList.add("active");
+
+        }
+
+    });
+
+}
+
+window.addEventListener("scroll", revealSections);
+
+window.addEventListener("load", revealSections);
+
+</script>   
 </body>
