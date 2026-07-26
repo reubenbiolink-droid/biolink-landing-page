@@ -479,7 +479,7 @@ STATS SECTION
 
 .ecosystem-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns:repeat(3,1fr);
     gap:30px;
     margin-top:60px;
 }
@@ -497,6 +497,12 @@ STATS SECTION
     transition:.35s;
 
     border:1px solid #edf1f7;
+
+    min-height:280px;
+
+    display:flex;
+
+    flex-direction:column;
 
 }
 
@@ -551,5 +557,21 @@ STATS SECTION
     line-height:1.8;
 
     font-size:16px;
+
+}
+
+@media(max-width:992px){
+
+    .ecosystem-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media(max-width:768px){
+
+    .ecosystem-grid{
+        grid-template-columns:1fr;
+    }
 
 }
