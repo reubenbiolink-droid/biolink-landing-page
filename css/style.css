@@ -1747,6 +1747,7 @@ justify-content:flex-start;
     max-width:900px;
     margin:80px auto 0;
     padding:20px 0;
+    min-height:900px;
 }
 
 .timeline::before{
@@ -1763,7 +1764,7 @@ justify-content:flex-start;
 .timeline-item{
     position:relative;
     width:50%;
-    margin-bottom:80px;
+    margin-bottom:140px;
     box-sizing:border-box;
 }
 .timeline-item.left{
