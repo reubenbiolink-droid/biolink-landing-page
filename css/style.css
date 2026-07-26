@@ -1418,3 +1418,15 @@ justify-content:flex-start;
         grid-template-columns:1fr;
     }
 }
+.footer-bottom{
+    margin-top:50px;
+    border-top:1px solid rgba(255,255,255,.12);
+    padding-top:25px;
+}
+
+.footer-bottom p{
+    margin:0;
+    text-align:center;
+    color:#b8c2cc;
+    font-size:.95rem;
+}
