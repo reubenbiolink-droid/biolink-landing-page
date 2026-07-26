@@ -1733,9 +1733,9 @@ justify-content:flex-start;
     color:#666;
     line-height:1.8;
 }
-/* ===========================
-   OUR JOURNEY
-=========================== */
+/* ==========================================
+   OUR JOURNEY (NEW)
+========================================== */
 
 .journey{
     padding:100px 0;
@@ -1744,8 +1744,9 @@ justify-content:flex-start;
 
 .timeline{
     position:relative;
-    max-width:1200px;
-    margin:70px auto 0;
+    max-width:1100px;
+    margin:80px auto 0;
+    padding:20px 0;
 }
 
 .timeline::before{
@@ -1757,121 +1758,5 @@ justify-content:flex-start;
     transform:translateX(-50%);
     width:4px;
     background:#D4AF37;
-}
-
-.timeline-item{
-    position:relative;
-    width:50%;
-    margin-bottom:60px;
-}
-
-.timeline-item:last-child{
-    margin-bottom:0;
-}
-.timeline-item:nth-child(odd){
-    left:0;
-}
-
-.timeline-item:nth-child(even){
-    left:50%;
-}
-.timeline-item:nth-child(odd) .timeline-dot{
-    right:-12px;
-    left:auto;
-}
-
-.timeline-item:nth-child(even) .timeline-dot{
-    left:-12px;
-    right:auto;
-}
-
-.timeline-content{
-    background:#fff;
-    padding:30px;
-    border-radius:18px;
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
-    transition:.35s;
-    width:calc(100% - 50px);
-}
-.timeline-item:nth-child(odd) .timeline-content{
-    margin-right:50px;
-}
-
-.timeline-item:nth-child(even) .timeline-content{
-    margin-left:50px;
-}
-.timeline-content:hover{
-    transform:translateX(10px);
-}
-
-.timeline-year{
-    display:inline-block;
-    background:#D4AF37;
-    color:#0B2341;
-    padding:6px 16px;
-    border-radius:30px;
-    font-weight:700;
-    margin-bottom:15px;
-}
-
-.timeline-content h3{
-    color:#0B2341;
-    margin-bottom:12px;
-}
-
-.timeline-content p{
-    color:#666;
-    line-height:1.8;
-}
-/* ===========================
-   ABOUT CTA
-=========================== */
-
-.about-cta{
-    padding:110px 0;
-    background:linear-gradient(rgba(11,35,65,.94),rgba(11,35,65,.94)),
-               url('images/about-team.jpg') center/cover no-repeat;
-    text-align:center;
-    color:#fff;
-}
-
-.about-cta-content{
-    max-width:850px;
-    margin:auto;
-}
-
-.about-cta h2{
-    font-size:48px;
-    margin-bottom:25px;
-    color:#fff;
-}
-
-.about-cta p{
-    font-size:19px;
-    line-height:1.9;
-    color:#f0f0f0;
-    margin-bottom:45px;
-}
-
-.cta-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.btn-secondary{
-    display:inline-block;
-    padding:14px 30px;
-    border:2px solid #D4AF37;
-    color:#D4AF37;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:700;
-    transition:.3s;
-}
-
-.btn-secondary:hover{
-    background:#D4AF37;
-    color:#0B2341;
+    border-radius:10px;
 }
