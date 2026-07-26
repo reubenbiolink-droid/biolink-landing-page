@@ -952,7 +952,7 @@ From booking healthcare services to joining our nationwide network of providers 
 </section> 
 <script>
 const reveals = document.querySelectorAll(".reveal");
-
+const navbar = document.querySelector(".navbar");
 function revealSections() {
     const windowHeight = window.innerHeight;
 
@@ -964,6 +964,11 @@ function revealSections() {
             section.classList.add("active");
         }
     });
+   if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+} else {
+    navbar.classList.remove("scrolled");
+ }
 }
 
 window.addEventListener("scroll", revealSections);
