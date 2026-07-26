@@ -965,6 +965,126 @@ STATS SECTION
     box-shadow:0 30px 60px rgba(0,0,0,.15);
 
 }
+/* ==========================
+   CALL TO ACTION
+========================== */
+
+.cta-section{
+
+    padding:100px 0;
+
+    background:linear-gradient(135deg,#082C5C 0%,#0D3E82 100%);
+
+}
+
+.cta-content{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    color:#ffffff;
+
+}
+
+.cta-content h2{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+    font-weight:700;
+
+}
+
+.cta-content p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:rgba(255,255,255,.9);
+
+    margin-bottom:40px;
+
+}
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+.cta-buttons a{
+
+    text-decoration:none;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+    display:inline-block;
+
+}
+.btn-primary{
+
+    background:#D4AF37;
+
+    color:#082C5C;
+
+}
+
+.btn-primary:hover{
+
+    background:#ffffff;
+
+    transform:translateY(-4px);
+
+}
+.btn-secondary{
+
+    background:#ffffff;
+
+    color:#082C5C;
+
+}
+
+.btn-secondary:hover{
+
+    background:#D4AF37;
+
+    color:#082C5C;
+
+    transform:translateY(-4px);
+
+}
+.btn-outline{
+
+    border:2px solid #ffffff;
+
+    color:#ffffff;
+
+}
+
+.btn-outline:hover{
+
+    background:#ffffff;
+
+    color:#082C5C;
+
+    transform:translateY(-4px);
+
+}
 @media(max-width:1200px){
 
     .ecosystem-grid{
