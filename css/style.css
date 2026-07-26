@@ -608,3 +608,64 @@ STATS SECTION
     border:1px solid #edf1f7;
     transition:.35s;
 }
+.step-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.15);
+
+    border-color:#c99a4a;
+
+}
+
+.step-number{
+
+    width:45px;
+
+    height:45px;
+
+    margin:0 auto 20px;
+
+    background:#082C5C;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-weight:700;
+
+    font-size:18px;
+
+}
+
+.step-icon{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+.step-card h3{
+
+    color:#082C5C;
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.step-card p{
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}
