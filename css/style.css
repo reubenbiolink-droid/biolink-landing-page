@@ -1775,21 +1775,14 @@ justify-content:flex-start;
 .timeline-item:nth-child(even){
     left:50%;
 }
-.timeline-dot{
-    position:absolute;
-    top:28px;
+.timeline-item:nth-child(odd) .timeline-dot{
     right:-12px;
+    left:auto;
+}
 
-    width:24px;
-    height:24px;
-
-    background:#0B2341;
-
-    border:5px solid #D4AF37;
-
-    border-radius:50%;
-
-    z-index:5;
+.timeline-item:nth-child(even) .timeline-dot{
+    left:-12px;
+    right:auto;
 }
 
 .timeline-content{
