@@ -486,23 +486,25 @@ STATS SECTION
 
 .eco-card{
 
-    background:#fff;
+    background:#ffffff;
 
     padding:35px;
 
     border-radius:24px;
 
+    border:1px solid #edf1f7;
+
     box-shadow:0 15px 40px rgba(0,0,0,.08);
 
     transition:.35s;
 
-    border:1px solid #edf1f7;
-
-    min-height:280px;
+    min-height:320px;
 
     display:flex;
 
     flex-direction:column;
+
+    justify-content:flex-start;
 
 }
 
@@ -521,7 +523,7 @@ STATS SECTION
     width:85px;
     height:85px;
 
-    margin-bottom:25px;
+    margin:0 auto 25px;
 
     border-radius:50%;
 
@@ -539,23 +541,25 @@ STATS SECTION
 
 }
 
-.eco-card:hover .eco-icon{
+.eco-card:hover{
 
-    background:#c99a4a;
+    transform:translateY(-12px);
 
-    color:#ffffff;
+    border-color:#c99a4a;
 
-    transform:rotate(8deg) scale(1.08);
+    box-shadow:0 30px 60px rgba(0,0,0,.15);
 
 }
 
 .eco-card h3{
 
-    color:#0d1b3d;
+    color:#082C5C;
 
-    font-size:24px;
+    font-size:22px;
 
     margin-bottom:15px;
+
+    font-weight:700;
 
 }
 
@@ -565,7 +569,7 @@ STATS SECTION
 
     line-height:1.8;
 
-    font-size:16px;
+    font-size:15px;
 
 }
 
