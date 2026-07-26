@@ -651,7 +651,15 @@ justify-content:flex-start;
 
     font-size:48px;
 
+    color:#c99a4a;
+
     margin-bottom:20px;
+
+}
+
+.step-icon i{
+
+    display:block;
 
 }
 
