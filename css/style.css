@@ -1430,3 +1430,31 @@ justify-content:flex-start;
     color:#b8c2cc;
     font-size:.95rem;
 }
+/* ============================
+   About Hero
+============================ */
+
+.about-hero{
+    background:linear-gradient(rgba(11,35,65,.88), rgba(11,35,65,.88)),
+               url('images/about-banner.jpg') center/cover no-repeat;
+    padding:140px 0 100px;
+    text-align:center;
+    color:#fff;
+}
+
+.about-hero-content{
+    max-width:800px;
+    margin:0 auto;
+}
+
+.about-hero-content h1{
+    font-size:3rem;
+    margin-bottom:20px;
+    color:#fff;
+}
+
+.about-hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#e8e8e8;
+}
