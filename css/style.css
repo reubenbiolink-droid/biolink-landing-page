@@ -583,3 +583,28 @@ STATS SECTION
     }
 
 }
+/* ==========================
+   HOW BIOLINK WORKS
+========================== */
+
+.how-it-works{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.steps-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    margin-top:60px;
+}
+
+.step-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:24px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    border:1px solid #edf1f7;
+    transition:.35s;
+}
