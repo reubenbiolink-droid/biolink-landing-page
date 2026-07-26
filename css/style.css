@@ -692,6 +692,38 @@ STATS SECTION
 
     transition:.35s;
 }
+.benefit-icon{
+
+    width:85px;
+    height:85px;
+
+    margin:0 auto 25px;
+
+    border-radius:50%;
+
+    background:#FFF7EC;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#c99a4a;
+
+    font-size:34px;
+
+    transition:.35s;
+
+}
+
+.benefit-card:hover .benefit-icon{
+
+    background:#c99a4a;
+
+    color:#ffffff;
+
+    transform:scale(1.08) rotate(8deg);
+
+}
 @media(max-width:1200px){
 
     .ecosystem-grid{
