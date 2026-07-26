@@ -64,11 +64,10 @@ header{
 }
 
 .logo img{
-
-    height:70px;
-
+    height:58px;
+    width:auto;
+    display:block;
 }
-
 .nav-menu{
 
     display:flex;
