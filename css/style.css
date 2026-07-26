@@ -1682,3 +1682,54 @@ justify-content:flex-start;
     color:#666;
     line-height:1.8;
 }
+/* ===========================
+   HEALTHCARE ECOSYSTEM
+=========================== */
+
+.ecosystem{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.ecosystem-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    margin-top:60px;
+}
+
+.ecosystem-card{
+    display:flex;
+    gap:25px;
+    align-items:flex-start;
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.35s;
+}
+
+.ecosystem-card:hover{
+    transform:translateY(-8px);
+}
+
+.ecosystem-card i{
+    font-size:45px;
+    color:#D4AF37;
+    min-width:55px;
+}
+
+.ecosystem-card h3{
+    color:#0B2341;
+    margin-bottom:12px;
+}
+
+.ecosystem-card p{
+    color:#666;
+    line-height:1.8;
+}
