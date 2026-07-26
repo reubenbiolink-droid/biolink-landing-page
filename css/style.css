@@ -226,12 +226,13 @@ header{
 }
 
 .hero-image img{
-    width:100%;
-    max-width:600px;
-    height:450px;
+    width:650px;
+    height:420px;
     object-fit:cover;
-    border-radius:30px;
-    box-shadow:0 20px 50px rgba(0,0,0,0.15);
+    object-position:center;
+    border-radius:28px;
+    box-shadow:0 18px 45px rgba(0,0,0,0.15);
+}
 }
 
 .hero-image img{
