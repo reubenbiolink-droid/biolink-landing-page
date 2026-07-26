@@ -2,7 +2,11 @@
    BIOLINK SOLUTIONS
    MAIN STYLESHEET
 ================================ */
+html{
 
+    scroll-behavior:smooth;
+
+}
 *{
     margin:0;
     padding:0;
@@ -109,20 +113,29 @@ header{
 }
 
 .btn-primary{
-    display: inline-block;
-    background: #D4AF37;
-    color: #0B2341;
-    padding: 12px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 700;
-    white-space: nowrap;
-    transition: 0.3s;
+
+    transition:.35s ease;
+
 }
 
 .btn-primary:hover{
-    background: #E6C45A;
-    transform: translateY(-2px);
+
+    transform:translateY(-3px);
+
+    box-shadow:0 15px 30px rgba(212,175,55,.35);
+
+}
+
+.btn-outline{
+
+    transition:.35s ease;
+
+}
+
+.btn-outline:hover{
+
+    transform:translateY(-3px);
+
 }
 /* ===============================
    HERO
@@ -1890,4 +1903,60 @@ overflow:hidden;
     opacity:1;
 
     transform:translateY(0);
+}
+.about-overview{
+
+    background:#fff;
+
+}
+
+.mission-section{
+
+    background:#f8fafc;
+
+}
+
+.our-story{
+
+    background:#fff;
+
+}
+
+.why-biolink{
+
+    background:#f8fafc;
+
+}
+
+.ecosystem{
+
+    background:#fff;
+
+}
+
+.journey{
+
+    background:#f8fafc;
+
+}
+
+.cta-section{
+
+    background:linear-gradient(135deg,#0B2D5B,#163d74);
+
+}
+.about-image img{
+
+    border-radius:20px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+    transition:.4s ease;
+
+}
+
+.about-image img:hover{
+
+    transform:scale(1.03);
+
 }
