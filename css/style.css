@@ -212,18 +212,18 @@ header{
 
 .hero-image{
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
     align-items:center;
-    flex:1;
 }
 
 .hero-image img{
-    width:650px;
-    height:420px;
+    width:100%;
+    max-width:560px;
+    height:520px;
     object-fit:cover;
-    object-position:center;
-    border-radius:28px;
-    box-shadow:0 18px 45px rgba(0,0,0,0.15);
+    border-radius:32px;
+    box-shadow:0 25px 60px rgba(0,0,0,.18);
+}
 }
 
 .hero-image img{
