@@ -344,13 +344,29 @@ STATS SECTION
 }
 
 .section-title h2::after{
+
     content:"";
+
     display:block;
-    width:80px;
+
+    width:0;
+
     height:4px;
-    background:#D4AF37;
+
     margin:18px auto 0;
+
+    background:#D4AF37;
+
     border-radius:50px;
+
+    transition:width .8s ease;
+
+}
+
+.reveal.active .section-title h2::after{
+
+    width:80px;
+
 }
 
 .section-title p{
