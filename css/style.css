@@ -1340,3 +1340,17 @@ justify-content:flex-start;
         grid-template-columns:1fr;
     }
 }
+/* ============================
+   Scroll Reveal Animation
+============================ */
+
+.reveal{
+    opacity:0;
+    transform:translateY(60px);
+    transition:opacity .8s ease, transform .8s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
