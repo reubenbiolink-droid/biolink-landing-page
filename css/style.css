@@ -594,7 +594,7 @@ STATS SECTION
 
 .steps-grid{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:30px;
     margin-top:60px;
 }
@@ -607,6 +607,9 @@ STATS SECTION
     box-shadow:0 15px 40px rgba(0,0,0,.08);
     border:1px solid #edf1f7;
     transition:.35s;
+   display:flex;
+flex-direction:column;
+justify-content:flex-start;
 }
 .step-card:hover{
 
@@ -663,9 +666,7 @@ STATS SECTION
 }
 
 .step-card p{
-
     color:#6b7280;
-
     line-height:1.8;
-
+    font-size:16px;
 }
