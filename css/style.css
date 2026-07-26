@@ -1811,3 +1811,55 @@ justify-content:flex-start;
     color:#666;
     line-height:1.8;
 }
+/* ===========================
+   ABOUT CTA
+=========================== */
+
+.about-cta{
+    padding:110px 0;
+    background:linear-gradient(rgba(11,35,65,.94),rgba(11,35,65,.94)),
+               url('images/about-team.jpg') center/cover no-repeat;
+    text-align:center;
+    color:#fff;
+}
+
+.about-cta-content{
+    max-width:850px;
+    margin:auto;
+}
+
+.about-cta h2{
+    font-size:48px;
+    margin-bottom:25px;
+    color:#fff;
+}
+
+.about-cta p{
+    font-size:19px;
+    line-height:1.9;
+    color:#f0f0f0;
+    margin-bottom:45px;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-secondary{
+    display:inline-block;
+    padding:14px 30px;
+    border:2px solid #D4AF37;
+    color:#D4AF37;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.btn-secondary:hover{
+    background:#D4AF37;
+    color:#0B2341;
+}
