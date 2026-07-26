@@ -311,33 +311,38 @@ STATS SECTION
     padding:100px 8%;
 }
 
+/* ===================================
+   Section Titles
+=================================== */
+
 .section-title{
     text-align:center;
-    max-width:720px;
-    margin:0 auto 60px;
-}
-
-.section-title span{
-    display:inline-block;
-    background:#e8eef8;
-    color:#0d1b3d;
-    padding:10px 22px;
-    border-radius:30px;
-    font-size:13px;
-    font-weight:600;
-    letter-spacing:1px;
-    margin-bottom:18px;
+    max-width:700px;
+    margin:0 auto 70px;
 }
 
 .section-title h2{
-    font-size:42px;
-    color:#0d1b3d;
-    margin-bottom:20px;
+    font-size:2.5rem;
+    color:#0B2D5B;
+    margin-bottom:18px;
+    font-weight:700;
+    line-height:1.2;
+    position:relative;
+}
+
+.section-title h2::after{
+    content:"";
+    display:block;
+    width:80px;
+    height:4px;
+    background:#D4AF37;
+    margin:18px auto 0;
+    border-radius:50px;
 }
 
 .section-title p{
-    font-size:18px;
-    color:#6b7280;
+    font-size:1.1rem;
+    color:#666;
     line-height:1.8;
 }
 
