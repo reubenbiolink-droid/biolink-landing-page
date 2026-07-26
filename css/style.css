@@ -1976,3 +1976,38 @@ overflow:hidden;
     transform:scale(1.03);
 
 }
+/* ===================================
+   Decorative Background
+=================================== */
+
+.mission-section,
+.why-biolink,
+.journey{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.mission-section::before,
+.why-biolink::before,
+.journey::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.05);
+
+    top:-120px;
+
+    right:-120px;
+
+}
