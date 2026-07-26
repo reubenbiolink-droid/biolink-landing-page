@@ -121,7 +121,7 @@ header{
 .hero{
     max-width:1280px;
     margin:auto;
-    padding:90px 40px;
+    padding:110px 40px 70px;
     display:grid;
     grid-template-columns:55% 45%;
     align-items:center;
@@ -213,10 +213,10 @@ header{
 
 .hero-image img{
     width:100%;
-    max-width:560px;
-    height:520px;
+    max-width:520px;
+    height:460px;
     object-fit:cover;
-    border-radius:32px;
+    border-radius:30px;
     box-shadow:0 25px 60px rgba(0,0,0,.18);
 }
 }
