@@ -1733,3 +1733,81 @@ justify-content:flex-start;
     color:#666;
     line-height:1.8;
 }
+/* ===========================
+   OUR JOURNEY
+=========================== */
+
+.journey{
+    padding:100px 0;
+    background:#f8fafc;
+}
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:70px auto 0;
+}
+
+.timeline::before{
+    content:"";
+    position:absolute;
+    left:25px;
+    top:0;
+    bottom:0;
+    width:4px;
+    background:#D4AF37;
+}
+
+.timeline-item{
+    position:relative;
+    display:flex;
+    gap:35px;
+    margin-bottom:55px;
+}
+
+.timeline-item:last-child{
+    margin-bottom:0;
+}
+
+.timeline-dot{
+    width:20px;
+    height:20px;
+    background:#0B2341;
+    border:5px solid #D4AF37;
+    border-radius:50%;
+    margin-left:16px;
+    z-index:2;
+    flex-shrink:0;
+}
+
+.timeline-content{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.timeline-content:hover{
+    transform:translateX(10px);
+}
+
+.timeline-year{
+    display:inline-block;
+    background:#D4AF37;
+    color:#0B2341;
+    padding:6px 16px;
+    border-radius:30px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.timeline-content h3{
+    color:#0B2341;
+    margin-bottom:12px;
+}
+
+.timeline-content p{
+    color:#666;
+    line-height:1.8;
+}
