@@ -1760,3 +1760,46 @@ justify-content:flex-start;
     background:#D4AF37;
     border-radius:10px;
 }
+.timeline-item{
+    position:relative;
+    width:50%;
+    margin-bottom:60px;
+}
+
+.timeline-item.left{
+    left:0;
+    padding-right:60px;
+}
+
+.timeline-content{
+    position:relative;
+    background:#ffffff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    transition:all .35s ease;
+}
+
+.timeline-content:hover{
+    transform:translateY(-6px);
+}
+
+.timeline-year{
+    display:inline-block;
+    background:#D4AF37;
+    color:#0B2341;
+    padding:6px 16px;
+    border-radius:30px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.timeline-content h3{
+    color:#0B2341;
+    margin-bottom:12px;
+}
+
+.timeline-content p{
+    color:#666;
+    line-height:1.8;
+}
