@@ -1801,8 +1801,17 @@ justify-content:flex-start;
     border-radius:18px;
     box-shadow:0 15px 35px rgba(0,0,0,.08);
     transition:all .35s ease;
+   border-top:4px solid transparent;
+overflow:hidden;
 }
+.timeline-content:hover{
 
+    border-top:4px solid #D4AF37;
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+}
 .timeline-content:hover{
     transform:translateY(-6px);
 }
