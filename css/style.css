@@ -2011,3 +2011,181 @@ overflow:hidden;
     right:-120px;
 
 }
+/* ===================================
+   Core Services
+=================================== */
+
+.services-core{
+
+    padding:100px 0;
+
+    background:#f8fafc;
+
+}
+
+.service-block{
+
+    display:grid;
+
+    grid-template-columns:120px 1fr;
+
+    gap:35px;
+
+    align-items:flex-start;
+
+    background:#fff;
+
+    padding:40px;
+
+    margin-bottom:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.06);
+
+    transition:all .35s ease;
+
+    border-left:6px solid transparent;
+
+}
+
+.service-block:hover{
+
+    transform:translateY(-8px);
+
+    border-left:6px solid #D4AF37;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+
+.service-icon{
+
+    width:90px;
+
+    height:90px;
+
+    background:#0B2D5B;
+
+    color:#fff;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:2rem;
+
+    transition:.35s ease;
+
+}
+
+.service-block:hover .service-icon{
+
+    background:#D4AF37;
+
+    color:#0B2D5B;
+
+    transform:rotate(-5deg) scale(1.05);
+
+}
+
+.service-category{
+
+    display:inline-block;
+
+    color:#D4AF37;
+
+    font-size:.85rem;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+    text-transform:uppercase;
+
+}
+
+.service-details h3{
+
+    color:#0B2D5B;
+
+    font-size:2rem;
+
+    margin-bottom:15px;
+
+}
+
+.service-details p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.service-features{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.service-features span{
+
+    padding:10px 18px;
+
+    background:#eef4fb;
+
+    border-radius:50px;
+
+    font-size:.9rem;
+
+    color:#0B2D5B;
+
+    font-weight:600;
+
+    transition:.3s ease;
+
+}
+
+.service-features span:hover{
+
+    background:#D4AF37;
+
+    color:#fff;
+
+}
+@media(max-width:768px){
+
+    .service-block{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .service-icon{
+
+        margin:0 auto;
+
+    }
+
+    .service-features{
+
+        justify-content:center;
+
+    }
+
+}
