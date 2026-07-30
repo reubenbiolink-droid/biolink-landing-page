@@ -2363,9 +2363,24 @@ overflow:hidden;
 
 .service-group h2 {
 
+    position: relative;
+    display: inline-block;
     color: #0B2D5B;
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.service-group h2::after {
+
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #D4AF37;
+    margin: 12px auto 0;
+    border-radius: 3px;
 
 }
 
