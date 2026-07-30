@@ -2354,3 +2354,26 @@ overflow:hidden;
     margin:0;
 
 }
+.service-group {
+
+    text-align: center;
+    margin: 80px 0 45px;
+
+}
+
+.service-group h2 {
+
+    color: #0B2D5B;
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+
+.service-group p {
+
+    max-width: 760px;
+    margin: auto;
+    line-height: 1.8;
+    color: #666;
+
+}
